@@ -2,6 +2,9 @@
 
 A production-grade Unity package for real-time VR avatar synchronization in multiplayer environments. Built on Unity Netcode for GameObjects (NGO), this system provides seamless head, hand, and finger tracking across networked VR clients with support for Meta Quest, Unity XR Interaction Toolkit, and custom XR platforms.
 
+This module was originally developed by me while building a production multiplayer VR experience at Evermorrow Labs. This repository is a cleaned-up, standalone version intended for reuse and documentation.
+No proprietary code or assets from the original project are included.
+
 [![Unity 2022.3+](https://img.shields.io/badge/Unity-2022.3%20LTS-blue.svg)](https://unity.com/)
 [![Netcode 1.5.0](https://img.shields.io/badge/Netcode-1.5.0-green.svg)](https://docs.unity3d.com/Packages/com.unity.netcode.gameobjects@2.8/manual/index.html)
 
