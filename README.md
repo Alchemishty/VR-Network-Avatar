@@ -509,21 +509,21 @@ spawner.GetSpawnRotation = (clientId) =>
 VRNetworkAvatar/
 ├── Runtime/
 │   ├── Core/
-│   │   ├── VRNetworkAvatarManager.cs    # Central manager (285 lines)
-│   │   ├── NetworkPlayerIdentity.cs      # Name sync (146 lines)
+│   │   ├── VRNetworkAvatarManager.cs    # Central manager 
+│   │   ├── NetworkPlayerIdentity.cs      # Name sync 
 │   │   └── ClientAuthorityNetworkTransform.cs
 │   ├── Avatar/
-│   │   ├── NetworkVRAvatar.cs            # Main tracking (323 lines)
-│   │   └── AvatarFingerSync.cs           # Finger tracking (198 lines)
+│   │   ├── NetworkVRAvatar.cs            # Main tracking 
+│   │   └── AvatarFingerSync.cs           # Finger tracking 
 │   ├── Spawning/
-│   │   └── NetworkAvatarSpawner.cs       # Lifecycle (184 lines)
+│   │   └── NetworkAvatarSpawner.cs       # Lifecycle 
 │   ├── Configuration/
 │   │   ├── VRNetworkAvatarConfig.cs      # Global config
 │   │   └── AvatarSyncSettings.cs         # Sync tuning
 │   └── XRAbstraction/
-│       ├── IXRRigProvider.cs             # Interface (59 lines)
-│       ├── OVRRigProvider.cs             # Meta SDK (208 lines)
-│       └── GenericXRRigProvider.cs       # Unity XR (181 lines)
+│       ├── IXRRigProvider.cs             # Interface 
+│       ├── OVRRigProvider.cs             # Meta SDK 
+│       └── GenericXRRigProvider.cs       # Unity XR 
 ├── Prefabs/
 ├── Settings/
 ├── Samples~/
