@@ -48,27 +48,27 @@ A production-grade Unity package for real-time VR avatar synchronization in mult
 │              (Singleton, Lifecycle Management)                  │
 ├─────────────────────────────────────────────────────────────────┤
 │                                                                 │
-│  ┌──────────────────┐    ┌──────────────────────────────────┐  │
-│  │ NetworkAvatar    │    │        XR Abstraction Layer      │  │
-│  │    Spawner       │    │                                  │  │
-│  │                  │    │  ┌────────────┐ ┌─────────────┐  │  │
-│  │ • Spawn Points   │    │  │OVRRigProv. │ │GenericXRRig │  │  │
-│  │ • Prefab Select  │    │  │(Meta/Quest)│ │ (Unity XR)  │  │  │
-│  │ • Client Mapping │    │  └─────┬──────┘ └──────┬──────┘  │  │
-│  └────────┬─────────┘    │        │    IXRRigProvider      │  │
-│           │              │        └────────┴───────────────│  │
-│           ▼              └──────────────────────────────────┘  │
-│  ┌─────────────────────────────────────────────────────────┐   │
-│  │                  Network Avatar Instance                │   │
-│  │  ┌───────────────┐ ┌─────────────┐ ┌─────────────────┐  │   │
-│  │  │NetworkVRAvatar│ │AvatarFinger │ │NetworkPlayer    │  │   │
-│  │  │               │ │   Sync      │ │   Identity      │  │   │
-│  │  │• Head Tracking│ │             │ │                 │  │   │
-│  │  │• Hand Tracking│ │• L/R Finger │ │• Display Name   │  │   │
-│  │  │• Body Derive  │ │• Thresholds │ │• Name Plate UI  │  │   │
-│  │  │• Constraints  │ │             │ │                 │  │   │
-│  │  └───────────────┘ └─────────────┘ └─────────────────┘  │   │
-│  └─────────────────────────────────────────────────────────┘   │
+│  ┌──────────────────┐    ┌──────────────────────────────────┐   │
+│  │ NetworkAvatar    │    │        XR Abstraction Layer      │   │
+│  │    Spawner       │    │                                  │   │
+│  │                  │    │  ┌────────────┐ ┌─────────────┐  │   │
+│  │ • Spawn Points   │    │  │OVRRigProv. │ │GenericXRRig │  │   │
+│  │ • Prefab Select  │    │  │(Meta/Quest)│ │ (Unity XR)  │  │   │
+│  │ • Client Mapping │    │  └─────┬──────┘ └──────┬──────┘  │   │
+│  └────────┬─────────┘    │        │    IXRRigProvider       │   │
+│           │              │        └────────┴─────────────── │   │
+│           ▼              └──────────────────────────────────┘   │
+│  ┌─────────────────────────────────────────────────────────┐    │
+│  │                  Network Avatar Instance                │    │
+│  │  ┌───────────────┐ ┌─────────────┐ ┌─────────────────┐  │    │
+│  │  │NetworkVRAvatar│ │AvatarFinger │ │NetworkPlayer    │  │    │
+│  │  │               │ │   Sync      │ │   Identity      │  │    │
+│  │  │• Head Tracking│ │             │ │                 │  │    │
+│  │  │• Hand Tracking│ │• L/R Finger │ │• Display Name   │  │    │
+│  │  │• Body Derive  │ │• Thresholds │ │• Name Plate UI  │  │    │
+│  │  │• Constraints  │ │             │ │                 │  │    │
+│  │  └───────────────┘ └─────────────┘ └─────────────────┘  │    │
+│  └─────────────────────────────────────────────────────────┘    │
 │                                                                 │
 └─────────────────────────────────────────────────────────────────┘
 ```
