@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee39bd481f16d4f0ba5affd0fa7ed452, type: 3}
+  m_Name: DefaultVRNetworkAvatarConfig
+  m_EditorClassIdentifier: 
+  defaultAvatarPrefab: {fileID: 0}
+  syncSettings: {fileID: 0}
+  localAvatarLayer: LocalAvatar
+  disableLocalColliders: 1
+  spawnOnConnect: 1
+  despawnOnDisconnect: 1
+  xrPlatform: 0
+  enableDebugLogging: 0

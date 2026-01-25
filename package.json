@@ -1,0 +1,34 @@
+{
+  "name": "com.vrnetworkavatar.core",
+  "version": "1.0.0",
+  "displayName": "VR Network Avatar",
+  "description": "Self-contained, reusable Unity module for server-client networking with VR humanoid character support using Unity Netcode for GameObjects.",
+  "unity": "2022.3",
+  "unityRelease": "0f1",
+  "documentationUrl": "",
+  "changelogUrl": "",
+  "licensesUrl": "",
+  "dependencies": {
+    "com.unity.netcode.gameobjects": "1.5.0",
+    "com.unity.textmeshpro": "3.0.0"
+  },
+  "keywords": [
+    "vr",
+    "networking",
+    "avatar",
+    "multiplayer",
+    "netcode"
+  ],
+  "author": {
+    "name": "VRNetworkAvatar",
+    "email": "",
+    "url": ""
+  },
+  "samples": [
+    {
+      "displayName": "Basic Setup",
+      "description": "Sample scene demonstrating basic VR network avatar setup",
+      "path": "Samples~/BasicSetup"
+    }
+  ]
+}
